@@ -300,6 +300,14 @@ class Clubs_Meta_Boxes {
             wp_enqueue_media();
             wp_enqueue_script('clubs-admin', CLUBS_MANAGER_PLUGIN_URL . 'assets/js/admin.js', array('jquery'), CLUBS_MANAGER_VERSION, true);
             wp_enqueue_style('clubs-admin', CLUBS_MANAGER_PLUGIN_URL . 'assets/css/admin.css', array(), CLUBS_MANAGER_VERSION);
+            
+            // Google Maps API for admin
+            $options = get_option('clubs_manager_options');
+            $api_key = isset($options['google_maps_api_key']) ? $options['google_maps_api_key'] : '';
+            
+            if (!empty($api_key)) {
+                wp_enqueue_script('google-maps-admin', 'https://maps.googleapis.com/maps/api/js?key=' . $api_key . '&libraries=places', array(), null, true);
+            }
         }
     }
 }

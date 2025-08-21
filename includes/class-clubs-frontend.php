@@ -62,6 +62,7 @@ class Clubs_Frontend {
         
         $search_name = sanitize_text_field($_POST['search_name']);
         $search_area = intval($_POST['search_area']);
+        $area_id = isset($_POST['area_id']) ? intval($_POST['area_id']) : 0;
         $search_price_min = intval($_POST['search_price_min']);
         $search_price_max = intval($_POST['search_price_max']);
         $search_tables = intval($_POST['search_tables']);
@@ -82,12 +83,13 @@ class Clubs_Frontend {
         }
         
         // Search by area
-        if (!empty($search_area)) {
+        if (!empty($search_area) || !empty($area_id)) {
+            $area_term = !empty($search_area) ? $search_area : $area_id;
             $args['tax_query'] = array(
                 array(
                     'taxonomy' => 'club_area',
                     'field' => 'term_id',
-                    'terms' => $search_area,
+                    'terms' => $area_term,
                 ),
             );
         }

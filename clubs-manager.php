@@ -64,6 +64,9 @@ class ClubsManager {
         new Clubs_Admin();
         new Clubs_Frontend();
         new Clubs_Shortcodes();
+        
+        // Add theme support for post thumbnails if not already supported
+        add_theme_support('post-thumbnails');
     }
     
     /**
