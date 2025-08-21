@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Clubs Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-clubs-post-type.php:25
+msgctxt "Post type general name"
+msgid "Câu lạc bộ"
+msgstr ""
+
+#: includes/class-clubs-post-type.php:26
+msgctxt "Post type singular name"
+msgid "Câu lạc bộ"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:45
+msgid "Thông tin câu lạc bộ"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:52
+msgid "Vị trí câu lạc bộ"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:59
+msgid "Thư viện ảnh"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:66
+msgid "Giờ mở cửa"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:85
+msgid "Địa chỉ"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:92
+msgid "Giá VNĐ/giờ"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:99
+msgid "Số bàn bi-a"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:106
+msgid "Có chỗ đậu xe"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:110
+msgid "Có"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:111
+msgid "Không"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:117
+msgid "Số điện thoại"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:124
+msgid "Email"
+msgstr ""
+
+#: includes/class-clubs-meta-boxes.php:131
+msgid "Website"
+msgstr ""
+
+#: templates/single-billiard_club.php:15
+msgid "Khu vực:"
+msgstr ""
+
+#: templates/single-billiard_club.php:34
+msgid "Thư viện ảnh"
+msgstr ""
+
+#: templates/single-billiard_club.php:48
+msgid "Thông tin chi tiết"
+msgstr ""
+
+#: templates/archive-billiard_club.php:8
+msgid "Câu lạc bộ bi-a"
+msgstr ""
+
+#: templates/archive-billiard_club.php:26
+msgid "Tên câu lạc bộ:"
+msgstr ""
+
+#: templates/archive-billiard_club.php:27
+msgid "Nhập tên câu lạc bộ..."
+msgstr ""
+
+#: templates/archive-billiard_club.php:31
+msgid "Khu vực:"
+msgstr ""
+
+#: templates/archive-billiard_club.php:33
+msgid "Tất cả khu vực"
+msgstr ""
