@@ -1,0 +1,360 @@
+/* Admin Styles for Clubs Manager Plugin */
+
+/* Meta Box Styling */
+.clubs-meta-box .form-table {
+    width: 100%;
+}
+
+.clubs-meta-box .form-table th {
+    width: 150px;
+    padding: 15px 10px 15px 0;
+    vertical-align: top;
+}
+
+.clubs-meta-box .form-table td {
+    padding: 15px 10px;
+}
+
+.clubs-meta-box .regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+.clubs-meta-box .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Gallery Meta Box */
+#club-gallery-container {
+    padding: 10px 0;
+}
+
+#club-gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+    min-height: 60px;
+    border: 2px dashed #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+#club-gallery-images:empty::before {
+    content: "Chưa có hình ảnh nào. Nhấn 'Thêm hình ảnh' để bắt đầu.";
+    color: #666;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.gallery-image {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    background: white;
+}
+
+.gallery-image img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.remove-gallery-image {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 18px;
+    height: 18px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.remove-gallery-image:hover {
+    background: #c82333;
+}
+
+#add-gallery-images {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#add-gallery-images:hover {
+    background: #005a87;
+}
+
+/* Hours Meta Box */
+.clubs-hours-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.clubs-hours-table th,
+.clubs-hours-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.clubs-hours-table th {
+    background: #f1f1f1;
+    font-weight: 600;
+    width: 120px;
+}
+
+.clubs-hours-table input[type="time"] {
+    margin: 0 5px;
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.clubs-hours-table input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.clubs-hours-table label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+/* Custom Columns */
+.wp-list-table .column-club_area {
+    width: 12%;
+}
+
+.wp-list-table .column-club_price {
+    width: 10%;
+}
+
+.wp-list-table .column-club_tables {
+    width: 8%;
+}
+
+.wp-list-table .column-club_parking {
+    width: 8%;
+    text-align: center;
+}
+
+.wp-list-table .column-club_phone {
+    width: 12%;
+}
+
+.wp-list-table .column-thumbnail {
+    width: 60px;
+}
+
+.wp-list-table .column-thumbnail img {
+    border-radius: 3px;
+}
+
+/* Settings Page */
+.clubs-manager-settings {
+    max-width: 800px;
+}
+
+.clubs-manager-settings .form-table th {
+    width: 200px;
+}
+
+.clubs-manager-settings .regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+.clubs-manager-settings .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Admin Notice Styling */
+.clubs-manager-notice {
+    border-left: 4px solid #0073aa;
+    padding: 12px;
+    background: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.clubs-manager-notice.error {
+    border-left-color: #dc3232;
+}
+
+.clubs-manager-notice.success {
+    border-left-color: #46b450;
+}
+
+.clubs-manager-notice.warning {
+    border-left-color: #ffb900;
+}
+
+/* Location Meta Box */
+.clubs-location-info {
+    background: #f0f8ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.clubs-location-info h4 {
+    margin: 0 0 10px;
+    color: #0073aa;
+}
+
+.clubs-location-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Responsive Admin */
+@media screen and (max-width: 782px) {
+    .clubs-meta-box .form-table th,
+    .clubs-meta-box .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .clubs-meta-box .form-table th {
+        padding-bottom: 5px;
+    }
+    
+    #club-gallery-images {
+        justify-content: center;
+    }
+    
+    .gallery-image {
+        margin: 2px;
+    }
+    
+    .gallery-image img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Custom Post Type Icon */
+.wp-menu-image.dashicons-games:before {
+    content: "\f472";
+    color: #82878c;
+}
+
+.wp-menu-image.dashicons-games:before,
+.wp-menu-image.dashicons-games.current:before {
+    color: #fff;
+}
+
+/* Loading States */
+.clubs-admin-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.clubs-admin-loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0073aa;
+    border-radius: 50%;
+    animation: clubs-admin-spin 1s linear infinite;
+}
+
+@keyframes clubs-admin-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Help Text */
+.clubs-help-text {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    color: #856404;
+}
+
+.clubs-help-text h4 {
+    margin: 0 0 8px;
+    color: #856404;
+}
+
+.clubs-help-text ul {
+    margin: 8px 0;
+    padding-left: 20px;
+}
+
+.clubs-help-text li {
+    margin-bottom: 4px;
+}
+
+/* Sortable Indicators */
+.fixed .column-club_price,
+.fixed .column-club_tables {
+    cursor: pointer;
+}
+
+.fixed .column-club_price:hover,
+.fixed .column-club_tables:hover {
+    background-color: #f0f0f1;
+}
+
+/* Meta Box Tabs */
+.clubs-meta-tabs {
+    margin: 0 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.clubs-meta-tabs a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #666;
+    border-bottom: 2px solid transparent;
+    margin-right: 10px;
+}
+
+.clubs-meta-tabs a:hover,
+.clubs-meta-tabs a.active {
+    color: #0073aa;
+    border-bottom-color: #0073aa;
+}
+
+.clubs-meta-tab-content {
+    display: none;
+}
+
+.clubs-meta-tab-content.active {
+    display: block;
+}
