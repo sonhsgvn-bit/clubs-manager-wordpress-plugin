@@ -1,0 +1,811 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Clubs Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/sonhsgvn-bit/clubs-manager-wordpress-plugin\n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: includes/class-club-post-type.php:25
+msgctxt "Post Type General Name"
+msgid "Câu lạc bộ bi-a"
+msgstr ""
+
+#: includes/class-club-post-type.php:26
+msgctxt "Post Type Singular Name"
+msgid "Câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:27
+msgid "Câu lạc bộ bi-a"
+msgstr ""
+
+#: includes/class-club-post-type.php:28
+msgid "Câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:29
+msgid "Danh sách câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:30
+msgid "Thuộc tính"
+msgstr ""
+
+#: includes/class-club-post-type.php:31
+msgid "Câu lạc bộ cha:"
+msgstr ""
+
+#: includes/class-club-post-type.php:32
+msgid "Tất cả câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:33
+msgid "Thêm câu lạc bộ mới"
+msgstr ""
+
+#: includes/class-club-post-type.php:34
+msgid "Thêm mới"
+msgstr ""
+
+#: includes/class-club-post-type.php:35
+msgid "Câu lạc bộ mới"
+msgstr ""
+
+#: includes/class-club-post-type.php:36
+msgid "Sửa câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:37
+msgid "Cập nhật"
+msgstr ""
+
+#: includes/class-club-post-type.php:38
+msgid "Xem câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:39
+msgid "Xem các câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:40
+msgid "Tìm kiếm câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:41
+msgid "Không tìm thấy"
+msgstr ""
+
+#: includes/class-club-post-type.php:42
+msgid "Không tìm thấy trong thùng rác"
+msgstr ""
+
+#: includes/class-club-post-type.php:43
+msgid "Hình đại diện"
+msgstr ""
+
+#: includes/class-club-post-type.php:44
+msgid "Đặt hình đại diện"
+msgstr ""
+
+#: includes/class-club-post-type.php:45
+msgid "Xóa hình đại diện"
+msgstr ""
+
+#: includes/class-club-post-type.php:46
+msgid "Sử dụng làm hình đại diện"
+msgstr ""
+
+#: includes/class-club-post-type.php:47
+msgid "Chèn vào câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:48
+msgid "Đã tải lên câu lạc bộ này"
+msgstr ""
+
+#: includes/class-club-post-type.php:49
+msgid "Danh sách câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-post-type.php:50
+msgid "Điều hướng danh sách"
+msgstr ""
+
+#: includes/class-club-post-type.php:51
+msgid "Lọc danh sách"
+msgstr ""
+
+#: includes/class-club-post-type.php:55
+msgid "Quản lý thông tin câu lạc bộ bi-a"
+msgstr ""
+
+#: includes/class-club-post-type.php:90
+msgctxt "Taxonomy General Name"
+msgid "Khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:91
+msgctxt "Taxonomy Singular Name"
+msgid "Khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:92
+msgid "Khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:93
+msgid "Tất cả khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:94
+msgid "Khu vực cha"
+msgstr ""
+
+#: includes/class-club-post-type.php:95
+msgid "Khu vực cha:"
+msgstr ""
+
+#: includes/class-club-post-type.php:96
+msgid "Tên khu vực mới"
+msgstr ""
+
+#: includes/class-club-post-type.php:97
+msgid "Thêm khu vực mới"
+msgstr ""
+
+#: includes/class-club-post-type.php:98
+msgid "Sửa khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:99
+msgid "Cập nhật khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:100
+msgid "Xem khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:101
+msgid "Phân cách bằng dấu phẩy"
+msgstr ""
+
+#: includes/class-club-post-type.php:102
+msgid "Thêm hoặc xóa khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:103
+msgid "Chọn từ khu vực hay dùng"
+msgstr ""
+
+#: includes/class-club-post-type.php:104
+msgid "Khu vực phổ biến"
+msgstr ""
+
+#: includes/class-club-post-type.php:105
+msgid "Tìm kiếm khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:107
+msgid "Không có khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:108
+msgid "Danh sách khu vực"
+msgstr ""
+
+#: includes/class-club-post-type.php:143
+msgid "Giá (VNĐ/giờ)"
+msgstr ""
+
+#: includes/class-club-post-type.php:144
+msgid "Số bàn"
+msgstr ""
+
+#: includes/class-club-post-type.php:145
+msgid "Điện thoại"
+msgstr ""
+
+#: includes/class-club-post-type.php:146
+msgid "Ngày tạo"
+msgstr ""
+
+#: includes/class-club-post-type.php:158
+msgid "Chưa phân loại"
+msgstr ""
+
+#: includes/class-club-post-type.php:164
+msgid "Chưa có giá"
+msgstr ""
+
+#: includes/class-club-post-type.php:170
+msgid "Chưa cập nhật"
+msgstr ""
+
+#: includes/class-club-post-type.php:175
+msgid "Chưa có"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:25
+msgid "Thông tin cơ bản"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:33
+msgid "Thông tin liên hệ"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:41
+msgid "Tiện ích"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:49
+msgid "Giờ mở cửa"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:57
+msgid "Thư viện ảnh"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:76
+msgid "Địa chỉ"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:79
+msgid "Địa chỉ đầy đủ của câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:84
+msgid "Giá cả (VNĐ/giờ)"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:87
+msgid "Giá thuê bàn bi-a theo giờ (VNĐ)"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:92
+msgid "Số bàn bi-a"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:95
+msgid "Tổng số bàn bi-a có sẵn"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:100
+msgid "Mô tả chi tiết"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:103
+msgid "Mô tả chi tiết về câu lạc bộ, dịch vụ và tiện ích"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:118
+msgid "Số điện thoại"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:124
+msgid "Email"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:130
+msgid "Website"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:136
+msgid "Facebook"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:150
+msgid "Tiện ích có sẵn"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:154
+msgid "Chỗ để xe"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:159
+msgid "WiFi miễn phí"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:164
+msgid "Dịch vụ ăn uống"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:169
+msgid "Điều hòa"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:174
+msgid "Cho thuê cơ"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:188
+msgid "Thứ 2"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:189
+msgid "Thứ 3"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:190
+msgid "Thứ 4"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:191
+msgid "Thứ 5"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:192
+msgid "Thứ 6"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:193
+msgid "Thứ 7"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:194
+msgid "Chủ nhật"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:204
+msgid "Đóng cửa"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:209
+msgid "Ví dụ: 8:00 - 24:00"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:224
+msgid "Thêm ảnh"
+msgstr ""
+
+#: includes/class-club-meta-boxes.php:240
+msgid "Xóa ảnh"
+msgstr ""
+
+#: includes/class-club-admin.php:28
+msgid "Cài đặt Clubs Manager"
+msgstr ""
+
+#: includes/class-club-admin.php:29
+msgid "Cài đặt"
+msgstr ""
+
+#: includes/class-club-admin.php:40
+msgid "Cài đặt chung"
+msgstr ""
+
+#: includes/class-club-admin.php:46
+msgid "Google Maps API Key"
+msgstr ""
+
+#: includes/class-club-admin.php:52
+msgid "Mức zoom mặc định"
+msgstr ""
+
+#: includes/class-club-admin.php:58
+msgid "Số CLB trên mỗi trang"
+msgstr ""
+
+#: includes/class-club-admin.php:64
+msgid "Bật lazy loading"
+msgstr ""
+
+#: includes/class-club-admin.php:97
+msgid "Cấu hình các thông số chung cho plugin Clubs Manager."
+msgstr ""
+
+#: includes/class-club-admin.php:107
+msgid "Nhập Google Maps API Key để hiển thị bản đồ. <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\" target=\"_blank\">Lấy API Key</a>"
+msgstr ""
+
+#: includes/class-club-admin.php:121
+msgid "Mức zoom mặc định cho bản đồ (10-20)"
+msgstr ""
+
+#: includes/class-club-admin.php:133
+msgid "Số lượng câu lạc bộ hiển thị trên mỗi trang"
+msgstr ""
+
+#: includes/class-club-admin.php:144
+msgid "Bật lazy loading cho hình ảnh"
+msgstr ""
+
+#: includes/class-club-admin.php:145
+msgid "Tăng tốc độ tải trang bằng cách tải hình ảnh khi cần thiết"
+msgstr ""
+
+#: includes/class-club-admin.php:159
+msgid "Cài đặt đã được lưu thành công!"
+msgstr ""
+
+#: includes/class-club-admin.php:166
+msgid "Lưu cài đặt"
+msgstr ""
+
+#: includes/class-club-admin.php:171
+msgid "Hướng dẫn sử dụng Shortcodes"
+msgstr ""
+
+#: includes/class-club-admin.php:175
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-club-admin.php:176
+msgid "Mô tả"
+msgstr ""
+
+#: includes/class-club-admin.php:177
+msgid "Tham số"
+msgstr ""
+
+#: includes/class-club-admin.php:182
+msgid "Hiển thị danh sách câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-admin.php:187
+msgid "Form tìm kiếm câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-admin.php:192
+msgid "Bản đồ tất cả câu lạc bộ"
+msgstr ""
+
+#: includes/class-club-admin.php:198
+msgid "Ví dụ:"
+msgstr ""
+
+#: includes/class-club-admin.php:199
+msgid "Hiển thị 6 câu lạc bộ dưới dạng lưới"
+msgstr ""
+
+#: includes/class-club-admin.php:200
+msgid "Form tìm kiếm với bộ lọc và AJAX"
+msgstr ""
+
+#: includes/class-club-admin.php:201
+msgid "Bản đồ cao 400px với zoom level 12"
+msgstr ""
+
+#: includes/class-club-admin.php:212
+msgid "Thống kê Clubs Manager"
+msgstr ""
+
+#: includes/class-club-admin.php:240
+msgid "CLB đã xuất bản"
+msgstr ""
+
+#: includes/class-club-admin.php:244
+msgid "CLB nháp"
+msgstr ""
+
+#: includes/class-club-admin.php:248
+msgid "Khu vực"
+msgstr ""
+
+#: includes/class-club-admin.php:253
+msgid "Câu lạc bộ mới nhất"
+msgstr ""
+
+#: includes/class-club-admin.php:263
+msgid "Quản lý CLB"
+msgstr ""
+
+#: includes/class-club-admin.php:264
+msgid "Thêm CLB mới"
+msgstr ""
+
+#: includes/class-club-admin.php:281
+msgid "Clubs Manager: "
+msgstr ""
+
+#: includes/class-club-admin.php:283
+msgid "Vui lòng cấu hình <a href=\"%s\">Google Maps API Key</a> để sử dụng tính năng bản đồ."
+msgstr ""
+
+#: includes/class-club-frontend.php:126
+msgid "Thông tin cơ bản"
+msgstr ""
+
+#: includes/class-club-frontend.php:133
+msgid "Địa chỉ:"
+msgstr ""
+
+#: includes/class-club-frontend.php:140
+msgid "Giá cả:"
+msgstr ""
+
+#: includes/class-club-frontend.php:147
+msgid "Số bàn:"
+msgstr ""
+
+#: includes/class-club-frontend.php:171
+msgid "Thông tin liên hệ"
+msgstr ""
+
+#: includes/class-club-frontend.php:204
+msgid "Website"
+msgstr ""
+
+#: includes/class-club-frontend.php:223
+msgid "Tiện ích"
+msgstr ""
+
+#: includes/class-club-frontend.php:236
+msgid "Ăn uống"
+msgstr ""
+
+#: includes/class-club-frontend.php:264
+msgid "Giờ mở cửa"
+msgstr ""
+
+#: includes/class-club-frontend.php:284
+msgid "Đóng cửa"
+msgstr ""
+
+#: includes/class-club-frontend.php:286
+msgid "Liên hệ"
+msgstr ""
+
+#: includes/class-club-frontend.php:303
+msgid "Thư viện ảnh"
+msgstr ""
+
+#: includes/class-club-frontend.php:333
+msgid "Bản đồ"
+msgstr ""
+
+#: includes/class-club-shortcode.php:70
+msgid "Không tìm thấy câu lạc bộ nào."
+msgstr ""
+
+#: includes/class-club-shortcode.php:100
+msgid "Từ khóa"
+msgstr ""
+
+#: includes/class-club-shortcode.php:101
+msgid "Tên câu lạc bộ..."
+msgstr ""
+
+#: includes/class-club-shortcode.php:105
+msgid "Tất cả khu vực"
+msgstr ""
+
+#: includes/class-club-shortcode.php:121
+msgid "Giá tối đa (VNĐ/giờ)"
+msgstr ""
+
+#: includes/class-club-shortcode.php:122
+msgid "Ví dụ: 100000"
+msgstr ""
+
+#: includes/class-club-shortcode.php:126
+msgid "Số bàn tối thiểu"
+msgstr ""
+
+#: includes/class-club-shortcode.php:127
+msgid "Ví dụ: 5"
+msgstr ""
+
+#: includes/class-club-shortcode.php:131
+msgid "Tìm kiếm"
+msgstr ""
+
+#: includes/class-club-shortcode.php:137
+msgid "Tiện ích:"
+msgstr ""
+
+#: includes/class-club-shortcode.php:149
+msgid "Đang tìm kiếm..."
+msgstr ""
+
+#: includes/class-club-shortcode.php:170
+msgid "Google Maps API Key chưa được cấu hình."
+msgstr ""
+
+#: includes/class-club-shortcode.php:290
+msgid "Xem chi tiết"
+msgstr ""
+
+#: includes/class-club-shortcode.php:294
+msgid "Gọi ngay"
+msgstr ""
+
+#: includes/class-club-ajax.php:74
+msgid "Không tìm thấy câu lạc bộ nào phù hợp với tiêu chí tìm kiếm."
+msgstr ""
+
+#: templates/single-club.php:50
+msgid "Câu lạc bộ trước"
+msgstr ""
+
+#: templates/single-club.php:57
+msgid "Câu lạc bộ tiếp theo"
+msgstr ""
+
+#: templates/single-club.php:65
+msgid "← Quay lại danh sách câu lạc bộ"
+msgstr ""
+
+#: templates/single-club.php:71
+msgid "📞 Gọi ngay"
+msgstr ""
+
+#: templates/single-club.php:91
+msgid "Câu lạc bộ liên quan"
+msgstr ""
+
+#: templates/single-club.php:111
+msgid "Xem chi tiết"
+msgstr ""
+
+#: templates/archive-clubs.php:8
+msgid "Câu lạc bộ khu vực: %s"
+msgstr ""
+
+#: templates/archive-clubs.php:14
+msgid "Tất cả câu lạc bộ bi-a"
+msgstr ""
+
+#: templates/archive-clubs.php:15
+msgid "Khám phá các câu lạc bộ bi-a tốt nhất trong khu vực của bạn"
+msgstr ""
+
+#: templates/archive-clubs.php:32
+msgid "Tìm thấy %s câu lạc bộ"
+msgstr ""
+
+#: templates/archive-clubs.php:41
+msgid "Sắp xếp:"
+msgstr ""
+
+#: templates/archive-clubs.php:43
+msgid "Tên A-Z"
+msgstr ""
+
+#: templates/archive-clubs.php:44
+msgid "Tên Z-A"
+msgstr ""
+
+#: templates/archive-clubs.php:45
+msgid "Giá thấp đến cao"
+msgstr ""
+
+#: templates/archive-clubs.php:46
+msgid "Giá cao đến thấp"
+msgstr ""
+
+#: templates/archive-clubs.php:47
+msgid "Mới nhất"
+msgstr ""
+
+#: templates/archive-clubs.php:52
+msgid "Xem dạng lưới"
+msgstr ""
+
+#: templates/archive-clubs.php:56
+msgid "Xem dạng danh sách"
+msgstr ""
+
+#: templates/archive-clubs.php:77
+msgid "‹ Trước"
+msgstr ""
+
+#: templates/archive-clubs.php:78
+msgid "Sau ›"
+msgstr ""
+
+#: templates/archive-clubs.php:87
+msgid "Không tìm thấy câu lạc bộ nào"
+msgstr ""
+
+#: templates/archive-clubs.php:88
+msgid "Không có câu lạc bộ nào phù hợp với tiêu chí tìm kiếm của bạn."
+msgstr ""
+
+#: templates/archive-clubs.php:91
+msgid "Thử các gợi ý sau:"
+msgstr ""
+
+#: templates/archive-clubs.php:93
+msgid "Kiểm tra lại từ khóa tìm kiếm"
+msgstr ""
+
+#: templates/archive-clubs.php:94
+msgid "Thử tìm kiếm với từ khóa tổng quát hơn"
+msgstr ""
+
+#: templates/archive-clubs.php:95
+msgid "Xóa bớt bộ lọc"
+msgstr ""
+
+#: templates/archive-clubs.php:98
+msgid "Xem tất cả câu lạc bộ"
+msgstr ""
+
+#: templates/archive-clubs.php:107
+msgid "Khu vực"
+msgstr ""
+
+#: templates/archive-clubs.php:116
+msgid "Tất cả khu vực"
+msgstr ""
+
+#: templates/archive-clubs.php:131
+msgid "Chưa phân loại"
+msgstr ""
+
+#: templates/archive-clubs.php:137
+msgid "Thống kê"
+msgstr ""
+
+#: templates/archive-clubs.php:151
+msgid "Câu lạc bộ"
+msgstr ""
+
+#: templates/archive-clubs.php:155
+msgid "Khu vực"
+msgstr ""
+
+#: templates/archive-clubs.php:161
+msgid "Giá TB (VNĐ)"
+msgstr ""
+
+#: templates/archive-clubs.php:183
+msgid "Câu lạc bộ nổi bật"
+msgstr ""
+
+#: templates/club-card.php:51
+msgid "Đang mở"
+msgstr ""
+
+#: templates/club-card.php:53
+msgid "Đóng cửa"
+msgstr ""
+
+#: templates/club-card.php:57
+msgid "Nổi bật"
+msgstr ""
+
+#: templates/club-card.php:62
+msgid "Xem nhanh"
+msgstr ""
+
+#: templates/club-card.php:66
+msgid "Gọi ngay"
+msgstr ""
+
+#: templates/club-card.php:75
+msgid "Không có ảnh"
+msgstr ""
+
+#: templates/club-card.php:119
+msgid "WiFi"
+msgstr ""
+
+#: templates/club-card.php:120
+msgid "Ăn uống"
+msgstr ""
+
+#: templates/club-card.php:180
+msgid "Hôm nay:"
+msgstr ""
+
+#: templates/club-card.php:188
+msgid "Xem chi tiết"
+msgstr ""
+
+#: templates/club-card.php:193
+msgid "Gọi"
+msgstr ""
