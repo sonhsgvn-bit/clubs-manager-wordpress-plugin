@@ -1,0 +1,516 @@
+/**
+ * Clubs Manager Frontend Styles
+ */
+
+/* Archive and Taxonomy Pages */
+.clubs-manager-archive,
+.clubs-manager-taxonomy,
+.clubs-manager-shortcode {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.archive-header,
+.taxonomy-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.archive-title,
+.taxonomy-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.archive-description,
+.taxonomy-description {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Search Form */
+.clubs-search-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.search-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-field label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.search-field input,
+.search-field select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-field input:focus,
+.search-field select:focus {
+    outline: none;
+    border-color: #007cba;
+    box-shadow: 0 0 0 1px #007cba;
+}
+
+.search-actions {
+    text-align: center;
+}
+
+.search-actions button {
+    background: #007cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.search-actions button:hover {
+    background: #005a87;
+}
+
+.search-actions button#reset-search {
+    background: #666;
+}
+
+.search-actions button#reset-search:hover {
+    background: #444;
+}
+
+/* Clubs Grid */
+.clubs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* Club Card */
+.club-card {
+    background: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.club-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.club-card-image {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+.club-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.club-card:hover .club-card-image img {
+    transform: scale(1.05);
+}
+
+.placeholder-image {
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+.club-card-content {
+    padding: 20px;
+}
+
+.club-card-header {
+    margin-bottom: 15px;
+}
+
+.club-card-title {
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+}
+
+.club-card-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.club-card-title a:hover {
+    color: #007cba;
+}
+
+.club-card-area {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.club-card-details {
+    margin-bottom: 15px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.detail-icon {
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+.detail-text a {
+    color: #007cba;
+    text-decoration: none;
+}
+
+.detail-text a:hover {
+    text-decoration: underline;
+}
+
+.club-card-excerpt {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.club-card-footer {
+    border-top: 1px solid #f0f0f0;
+    padding-top: 15px;
+}
+
+.club-card-button {
+    display: inline-block;
+    background: #007cba;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.club-card-button:hover {
+    background: #005a87;
+    color: white;
+}
+
+/* Single Club Page */
+.clubs-manager-single {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.club-single {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.club-header {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #007cba 0%, #005a87 100%);
+    color: white;
+}
+
+.club-title {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+}
+
+.club-area a {
+    color: #cce7ff;
+    text-decoration: none;
+}
+
+.club-area a:hover {
+    text-decoration: underline;
+}
+
+.club-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    padding: 30px;
+}
+
+.club-featured-image {
+    margin-bottom: 20px;
+}
+
+.club-featured-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.club-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Gallery */
+.club-gallery h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Sidebar */
+.club-sidebar {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.club-details h3,
+.club-hours h3,
+.club-map h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #007cba;
+    padding-bottom: 5px;
+}
+
+.club-details .detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.club-details .detail-item:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.detail-value {
+    text-align: right;
+}
+
+.detail-value a {
+    color: #007cba;
+    text-decoration: none;
+}
+
+.detail-value a:hover {
+    text-decoration: underline;
+}
+
+/* Opening Hours */
+.hours-list {
+    background: white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.hours-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.hours-item:last-child {
+    border-bottom: none;
+}
+
+.hours-item .day {
+    font-weight: 600;
+}
+
+.hours-item .time {
+    color: #666;
+}
+
+/* Map */
+#club-location-map,
+#clubs-map {
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Loading Indicator */
+.loading-indicator {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* Pagination */
+.clubs-pagination {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.page-numbers {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 4px;
+    background: white;
+    border: 1px solid #ddd;
+    color: #007cba;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.page-numbers:hover,
+.page-numbers.current {
+    background: #007cba;
+    color: white;
+}
+
+/* No Results */
+.no-clubs-found {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Related Areas */
+.related-areas {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.related-areas h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.areas-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.area-link {
+    display: inline-block;
+    padding: 6px 12px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.area-link:hover {
+    background: #007cba;
+    color: white;
+    border-color: #007cba;
+}
+
+.area-count {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.area-link:hover .area-count {
+    color: #cce7ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .clubs-manager-archive,
+    .clubs-manager-taxonomy,
+    .clubs-manager-single,
+    .clubs-manager-shortcode {
+        padding: 10px;
+    }
+    
+    .archive-title,
+    .taxonomy-title,
+    .club-title {
+        font-size: 1.8rem;
+    }
+    
+    .search-fields {
+        grid-template-columns: 1fr;
+    }
+    
+    .clubs-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .club-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .club-sidebar {
+        order: -1;
+    }
+    
+    .areas-list {
+        flex-direction: column;
+    }
+    
+    .area-link {
+        text-align: center;
+    }
+}
